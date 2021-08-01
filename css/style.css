@@ -1,0 +1,57 @@
+body {
+  font-family: "Roboto-Regular";
+  background-color: #fee2f8;
+  background-image: linear-gradient(315deg, #fee2f8 0%, #dcf8ef 74%);
+}
+header .navbar {
+  padding: 0.5rem 0;
+}
+.head {
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+header nav.navbar .navbar-brand {
+  color: #fff;
+}
+section.todo-outer {
+  width: 100%;
+  float: left;
+  padding: 30px 0;
+}
+section.todo-outer h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.todo-inner {
+  width: 100%;
+  float: left;
+  padding: 40px;
+  box-shadow: 0px 0px 10px #c1c1c1;
+  background: #fff;
+  border-radius: 20px;
+}
+
+table tr td button {
+  background: no-repeat;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+.completed {
+  text-decoration: line-through;
+}
+.deleteallbtn {
+  border-radius: 20px;
+  background-color: #990000;
+  background-image: linear-gradient(147deg, #990000 0%, #ff0000 74%);
+}
+
+#addtaskbtn {
+  border-radius: 20px;
+  background-color: #63d471;
+  background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+}
